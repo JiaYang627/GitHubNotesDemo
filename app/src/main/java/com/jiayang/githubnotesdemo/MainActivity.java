@@ -9,6 +9,7 @@ import android.widget.ListView;
 import com.jiayang.commonlibs.commonListAdapter.BaseAdapterHelper;
 import com.jiayang.commonlibs.commonListAdapter.QuickAdapter;
 import com.jiayang.githubnotesdemo.CardView.CardViewActivity;
+import com.jiayang.githubnotesdemo.Notification.NotificationActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +17,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private ListView mListView;
-    private String[] strings = new String[]{"CardView"};
+    private String[] strings = new String[]{"CardView" ,"Notification"};
     private QuickAdapter<Model> mAdapter;
     private List<Model> mStringList = new ArrayList<>();
 
@@ -56,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
                         switch (item.mInt) {
                             case 0:
                                 goToActivity(CardViewActivity.class);
+                                break;
+                            case 1:
+                                goToActivity(NotificationActivity.class);
+                                break;
+                            default:
                                 break;
                         }
 
