@@ -10,7 +10,7 @@
 
 
 
-### CardView
+## CardView
 
 * AndroidUI
 
@@ -21,7 +21,7 @@
 [CardViewNote](https://github.com/JiaYang627/SomeNotes/blob/master/Notes/CardView.md)
 
 
-### Notification
+## Notification
 
 * AndroidUI
 
