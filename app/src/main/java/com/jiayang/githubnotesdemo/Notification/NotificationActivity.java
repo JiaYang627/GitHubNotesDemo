@@ -163,9 +163,4 @@ public class NotificationActivity extends AppCompatActivity implements View.OnCl
     }
 
 
-    @Override
-    protected void onNewIntent(Intent intent) {
-        super.onNewIntent(intent);
-        Log.e("onNewIntent", "NotificationonNewIntent");
-    }
 }

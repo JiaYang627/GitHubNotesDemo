@@ -1,6 +1,7 @@
 # GitHubNotesDemo
 > SomeNotes下的Demo
 * [CardView](#CardView)
+* [Notification](#Notification)
 
 
 
@@ -17,7 +18,7 @@
 
 * Note
 
-[CardView](https://github.com/JiaYang627/SomeNotes/blob/master/Notes/CardView.md)
+[CardViewNote](https://github.com/JiaYang627/SomeNotes/blob/master/Notes/CardView.md)
 
 
 ## Notification
