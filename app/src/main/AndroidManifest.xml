@@ -30,6 +30,10 @@
         <activity
             android:name=".Notification.NotificationActivity"
             android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".RxJava.RxJavaActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
